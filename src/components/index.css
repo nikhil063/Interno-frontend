@@ -1,0 +1,46 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 16px 32px;
+}
+
+nav h1 {
+    padding-left: 360px;
+}
+
+h1 span {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+nav a {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #292F36;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-gap: 48px;
+}
+
+a img {
+    width: 21px;
+    height: 21px;
+}
+
+#imgr {
+    background-image: url(./Images/Photo.png);
+    width: 1201px;
+    padding-top: 57px;
+    border-radius: 70px;
+    padding: 0px;
+    margin-left: 360px;
+    margin-top: 57px;
+}
