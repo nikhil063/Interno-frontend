@@ -53,10 +53,10 @@ function Teamsingle() {
         </p>
       </div>
 
-      <div style={{ display: "flex", justifyContent:"center", alignContent:"center"}}>
+      <div style={{ display: "flex", justifyContent:"center", alignContent:"center",width: "1201px", marginLeft:"360px", marginRight:"360px" }}>
 
 
-        <div style={{ width: "577px" }}>
+        <div style={{width:"50%"}} >
           <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Simplicity and functionality</h1>
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingTop:"40px" }}>
             Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.
@@ -67,7 +67,7 @@ function Teamsingle() {
           <img src='/Images/noslider.png' alt='not a slider' style={{width:"534px", marginTop:"40px"}} />
         </div>
 
-        <div style={{ width: "529px", paddingLeft:"40px" }}>
+        <div style={{ width:"50%", paddingLeft:"40px" }}>
         <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Question and Answer</h1>
         <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" , padding: "30px 0px 32px"}}>
           Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
@@ -82,7 +82,8 @@ function Teamsingle() {
 </div>
 
 
-<div style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", width: "658px", marginLeft: "auto",marginRight:"auto"  }}><form style={{ marginBottom: "77px" }}>
+<div style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", width: "796px", marginLeft: "auto", marginRight:"auto"  }}>
+<form style={{ marginBottom: "77px" }}>
 <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", textAlign: "center",  paddingBottom:"70px" }} >Contact us</h1>
 <div style={{ marginRight: "auto", marginLeft: "auto", display: "flex", flexDirection: "column", width: "796px" }}>
   <div style={{width: "796px" }}>
@@ -95,20 +96,21 @@ function Teamsingle() {
 
     <input type='text' placeholder='Send your message' style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px", color: "#000000", width: "796px", marginRight: "auto", marginLeft: "auto", height: "277px", borderBottomWidth:"3px", borderBottomColor:"#000000", outline:"0" }} />
 
-    <div style={{display:"flex", flexWrap:"wrap"}}>
+    <div style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>
     <input type='checkbox' style={{width:"17px", marginRight:"15px", border: "2px solid #CDA274"}} /><p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" , padding: "30px 0px 32px", color:"#CDA274"}}>Save my name, email and website in the browser for when I next comment</p>
   </div>
 </div>
 
 </form>
+<button style={{
+  backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
+  alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft: "auto", marginRight:"auto", marginTop:"40px"
+}}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Send now</div><img style={{ paddingRight: "61px" }} src='/Images/arrow.png' alt='arrow' /></button>
 </div>
 
 
 
-<button style={{
-  backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-  alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft: "1356px", marginTop:"40px", marginRight:"360px"
-}}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Send now</div><img style={{ paddingRight: "61px" }} src='/Images/arrow.png' alt='arrow' /></button>
+
 
 
 <div style={{display:"flex", justifyContent:"space-evenly", paddingTop:"135px", width:"1199px", marginRight: "auto", marginLeft: "auto"}} >

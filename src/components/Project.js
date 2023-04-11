@@ -11,9 +11,9 @@ const Project = () => {
     </div>
 
 
-    <div style={{display:"flex", marginTop:"200px", marginLeft:"360px",marginRight:"360px", height:"359px"}}>
+    <div style={{display:"flex", marginTop:"200px", justifyContent:"center"}}>
 
-<div style={{borderRadius:"70px", padding:"55px 84px", display:"flex",justifyContent:"space-between",alignContent:"space-between", backgroundColor:"#F4F0EC", marginLeft:"180px"}}>
+<div style={{borderRadius:"70px", padding:"55px 84px", display:"flex",justifyContent:"center", alignContent:"space-between", backgroundColor:"#F4F0EC"}}>
 
   <ul style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400",flexDirection:"column", display:"flex", lineHeight:"10px"}}>
     <li>Clients</li>

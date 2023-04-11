@@ -22,11 +22,11 @@ function Services() {
       </div>
 
 
-      <div>
+      <div style={{marginRight: "auto", marginLeft: "auto"}}>
 
 
-        <div style={{ display: "flex", justifyContent: "space-between", marginRight: "380px", marginLeft: "380px", marginTop: "200px",padding:"0px 20px 83px"}} >
-        <div style={{ textAlign: "center",padding:"83px 20px 83px" }} >
+        <div style={{ display: "flex", justifyContent: "center", marginRight: "auto", marginLeft: "auto", marginTop: "200px",padding:"0px 20px 83px"}} >
+        <div style={{ textAlign: "center",padding:"83px 20px 83px", width:"379px" }} >
             <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400" }} >Interior Work</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
@@ -35,7 +35,7 @@ function Services() {
           </div>
 
 
-          <div style={{ textAlign: "center",padding:"83px 20px 83px" }} >
+          <div style={{ textAlign: "center",padding:"83px 20px 83px", width:"379px" }} >
             <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400" }} >Interior Work</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
@@ -44,7 +44,7 @@ function Services() {
           </div>
 
 
-          <div style={{ textAlign: "center",padding:"83px 20px 83px" }} >
+          <div style={{ textAlign: "center",padding:"83px 20px 83px", width:"379px" }} >
             <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400" }} >2d/3d Art Work</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
@@ -57,8 +57,8 @@ function Services() {
         </div>
 
 
-        <div style={{ display: "flex", justifyContent: "space-between", marginRight: "380px", marginLeft: "380px", marginBottom: "200px" }} >
-          <div style={{ textAlign: "center",padding:"83px 20px 83px" }} >
+        <div style={{ display: "flex", justifyContent: "center", marginRight: "auto", marginLeft: "auto", marginBottom: "200px" }} >
+          <div style={{ textAlign: "center",padding:"83px 20px 83px", width:"379px" }} >
             <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400" }} >Retail Work</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
@@ -67,7 +67,7 @@ function Services() {
           </div>
 
 
-          <div style={{ textAlign: "center", borderRadius:"30px", backgroundColor:"#F4F0EC", padding:"83px 20px 83px" }} >
+          <div style={{ textAlign: "center", borderRadius:"30px", backgroundColor:"#F4F0EC", padding:"83px 20px 83px", width:"379px" }} >
             <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400" }} >Decoration work</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
@@ -76,7 +76,7 @@ function Services() {
           </div>
 
 
-          <div style={{ textAlign: "center",padding:"83px 20px 83px" }} >
+          <div style={{ textAlign: "center",padding:"83px 20px 83px", width:"379px" }} >
             <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400" }} >Retail Design</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using

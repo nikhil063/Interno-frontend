@@ -75,7 +75,7 @@ function Mainpage() {
         </div>
       </div>
 
-      <div style={{ display: "flex", padding: "200px 360px"}}>
+      <div style={{ display: "flex", padding: "200px 360px", marginLeft:"auto", marginRight:"auto"}}>
         <div style={{ width: "472px", paddingRight: "75px", marginLeft: 'auto',
         marginRight:"auto"  }}>
           <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", lineHeight: "125%", paddingBottom: "33px" }}>We Create The Art
@@ -86,7 +86,7 @@ function Mainpage() {
             that it has a more-or-less normal.</p>
           <div>
             <div style={{ display: "flex" }}>
-              <button style={{ paddingRight: "15px", paddingBottom: "47px" }}><img src='./Images/Callicon.png' alt='call' /></button>
+              <button style={{ paddingRight: "15px", paddingBottom: "47px" }}><img src='./Images/Callicon.png' alt='call'  /></button>
               <div>
                 <h1 style={{ fontFamily: "Jost", fontSize: "24px", fontWeight: "700" }}>012345678</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", paddingBottom: "47px" }}>Call us now</p>
@@ -154,71 +154,74 @@ function Mainpage() {
 
       <img src='./Images/Clientlogo.png' alt='clientlogo' style={{padding:"150px", marginLeft:"auto", marginRight:"auto"}} />
 
-      <div style={{paddingLeft:"750px", paddingRight:"750px", marginBottom:"93px"}} >
+      
+      
+      <div style={{marginLeft:"auto", marginRight:"auto", marginBottom:"93px"}} >
         <h1 style={{fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", textAlign:"center" }} >Follow Our Projects</h1>
-        <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", textAlign:"center", width:"737px"}} >It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
+        <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", textAlign:"center", width:"737px",marginLeft:"auto", marginRight:"auto"}} >It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
       </div>
 
 
 
 
-      <div style={{display:"flex", flexWrap:"wrap", width:"55%", marginLeft:"auto", marginRight:"auto"}}>
+      <div style={{display:"flex", flexWrap:"wrap", width:"1201px", marginLeft:"auto", marginRight:"auto"}}>
 
 
-        <div style={{display:"flex", flex:"50%", flexDirection:"column", flexWrap:"wrap"}} >
-          <div><img src='./Images/dispy.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
-          <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-            <div style={{width:"619px"}}>
-              <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
-              <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
+        <div style={{display:"flex", justifyContent:"center"}}>
+          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap"}} >
+            <img src='./Images/dispy.png' alt='display' style={{borderRadius:"0px", width:"525px"}} />
+            <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
+              <div style={{width:"619px"}}>
+                <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
+                <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
+              </div>
+              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon' /></button></div>
             </div>
-            <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon' /></button></div>
+          </div>
+          <div style={{display:"flex", flex:"50%", flexDirection:"column", flexWrap:"wrap"}} >
+            <div><img src='./Images/dispy2.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
+            <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
+              <div style={{width:"619px"}}>
+                <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
+                <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
+              </div>
+              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
+            </div>
           </div>
         </div>
 
 
-        <div style={{display:"flex", flex:"50%", flexDirection:"column", flexWrap:"wrap"}} >
-          <div><img src='./Images/dispy2.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
-          <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-            <div style={{width:"619px"}}>
-              <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
-              <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
+        <div style={{display:"flex", justifyContent:"center"}}>
+          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", flex:"50%"}} >
+            <div><img src='./Images/dispy3.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
+            <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
+              <div style={{width:"619px"}}>
+                <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
+                <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
+              </div>
+              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
             </div>
-            <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
           </div>
-        </div>
-
-
-        <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", flex:"50%"}} >
-          <div><img src='./Images/dispy3.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
-          <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-            <div style={{width:"619px"}}>
-              <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
-              <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
+          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", flex:"50%"}} >
+            <div><img src='./Images/dispy4.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
+            <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
+              <div style={{width:"619px"}}>
+                <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
+                <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
+              </div>
+              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='arrow icon'/></button></div>
             </div>
-            <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
-          </div>
-        </div>
-
-        <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", flex:"50%"}} >
-          <div><img src='./Images/dispy4.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
-          <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-            <div style={{width:"619px"}}>
-              <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
-              <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
-            </div>
-            <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='arrow icon'/></button></div>
           </div>
         </div>
 
       </div>
 
-      <img src='./Images/Counter.png' alt='container' style={{width:"100%"}} />
+      <img src='./Images/Counter.png' alt='container' style={{width:"100%", marginTop:"200px"}} />
 
 
-      <div style={{paddingLeft:"750px", paddingRight:"750px", marginBottom:"93px"}} >
+      <div style={{marginLeft:"auto", marginRight:"auto", marginBottom:"93px"}} >
       <h1 style={{fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", color:"#000000", textAlign:"center", margin:"200px 0px 0px" }} >Article & News</h1>
-        <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", textAlign:"center", width:"737px"}} >It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
+        <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", textAlign:"center", width:"737px", marginRight:"auto", marginLeft:"auto"}} >It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
       </div>
 
       <div style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>

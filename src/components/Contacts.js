@@ -24,7 +24,7 @@ const Contacts = () => {
 
 
 
-      <div style={{ display: "flex", marginTop: "200px", marginLeft: "630px", marginRight: "auto", height: "436px", width:"1201px" }}>
+      <div style={{ display: "flex", marginTop: "200px", marginLeft: "auto", marginRight: "auto", height: "436px", width:"1201px" }}>
 
         <div style={{ borderRadius: "70px", padding: "76px 32px 76px", display: "flex", justifyContent: "space-between", alignContent: "space-between", backgroundColor: "#F4F0EC" }}>
 
@@ -42,7 +42,7 @@ const Contacts = () => {
           </ul>
         </div>
 
-        <div style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", width: "658px", marginLeft: "42px" }}><form style={{ marginBottom: "77px" }}>
+        <div style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", width: "797px", marginLeft: "42px" }}><form style={{ marginBottom: "77px" }}>
           <div style={{ marginRight: "auto", marginLeft: "auto", display: "flex", flexDirection: "column", width: "796px" }}>
             <div style={{ marginRight: "auto", marginLeft: "auto", width: "796px" }}>
               <input type='text' placeholder='Name' style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px", color: "#000000", width: "378px", borderBottomWidth:"3px", borderBottomColor:"#000000", outline:"0" , marginRight:"15px"}} />
@@ -66,17 +66,18 @@ const Contacts = () => {
           
 
         </form>
+        <button style={{
+            backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
+            alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft: "auto", marginTop:"40px"
+          }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Send now</div><img style={{ paddingRight: "61px" }} src='./Images/arrow.png' alt='arrow' /></button>
         </div>
 
       </div>
-      <button style={{
-            backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-            alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft: "1586px", marginTop:"40px", marginRight:"360px"
-          }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Send now</div><img style={{ paddingRight: "61px" }} src='./Images/arrow.png' alt='arrow' /></button>
+      
 
 
-<div style={{marginLeft:"630px", marginTop:"139px", marginBottom:"169px", width:"1224px"}}>
-  <img style={{borderRadius:"70px", width:"1224px"}} src='./Images/gps.png' alt='location' />
+<div>
+  <img  style={{marginLeft:"auto", marginTop:"400px", marginBottom:"169px", width:"1201px", borderRadius:"70px", marginRight: "auto"}} src='./Images/gps.png' alt='location' />
 </div>
 
 <div style={{display:"flex", justifyContent:"space-evenly", paddingTop:"135px", width:"1199px", marginRight: "auto", marginLeft: "auto"}} >
