@@ -75,8 +75,8 @@ function Mainpage() {
         </div>
       </div>
 
-      <div style={{ display: "flex", padding: "200px 360px", marginLeft:"auto", marginRight:"auto", height:"700px"}}>
-        <div style={{ width: "472px", paddingRight: "75px", marginLeft: 'auto',
+      <div style={{ display: "flex", marginLeft:"auto", marginRight:"auto", width:"1201px", height:"700px", marginTop:"200px", marginBottom:"200px"}}>
+        <div style={{ width: "472px", marginLeft: 'auto',
         marginRight:"auto"  }}>
           <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", lineHeight: "125%", paddingBottom: "33px" }}>We Create The Art
             Of Stylish Living
