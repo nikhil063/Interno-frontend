@@ -26,7 +26,7 @@ function Pages() {
         <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", textAlign: "center", marginBottom: "16px" }}>Password Protected</h1>
         <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400", textAlign: "center" }}>This page is password protected. If you are the website admin, or have access to this page, type your password below.</p>
         <form>
-          <input type='text' placeholder='Enter your password' style={{
+          <input type='password' placeholder='Enter your password' style={{
             fontFamily: "Jost", fontSize: "20px", fontWeight: "400", color: "#000000", width: "482px", height: "45px", backgroundColor: "#F4F0EC", marginLeft: "118px", marginRight: "118px", marginTop: "50px", marginBottom: "41px", borderBottomWidth:"3px", borderBottomColor:"#000000", outline:"0"
           }} />
 

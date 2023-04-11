@@ -68,9 +68,9 @@ const Blog = () => {
             </div>
 
             <div style={{ width: "382px", height: "521px", backgroundColor: "#E7E7E7", borderRadius: "62px", margin:"10px" }}>
-              <img style={{ padding: "21px 21px 0" }} src='./Images/half1.png' alt='card' />
+              <img style={{ padding: "21px 21px 0" }} src='./Images/half2.png' alt='card' />
               <div>
-                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Let’s Get Solution For Building Construction Work</h1>
+                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Low Cost Latest Invented Interior Designing Ideas</h1>
                 <div style={{ display: "flex", width: "340px", paddingLeft: "21px", paddingTop: "30px" }}>
                   <p style={{ fontFamily: "Jost", fontSize: "16px", fontWeight: "400", width: "737px", paddingTop: "21px" }} >26 December, 2022</p>
                   <button ><img style={{ width: "180px" }} src='./Images/whitearrow.png' alt='button' /></button>
@@ -79,9 +79,9 @@ const Blog = () => {
             </div>
 
             <div style={{ width: "382px", height: "521px", backgroundColor: "#FFFFFF", borderRadius: "62px", margin:"10px" }}>
-              <img style={{ padding: "21px 21px 0" }} src='./Images/half1.png' alt='card' />
+              <img style={{ padding: "21px 21px 0" }} src='./Images/half3.png' alt='card' />
               <div>
-                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Let’s Get Solution For Building Construction Work</h1>
+                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Low Cost Latest Invented Interior Designing Ideas</h1>
                 <div style={{ display: "flex", width: "340px", paddingLeft: "21px", paddingTop: "30px" }}>
                   <p style={{ fontFamily: "Jost", fontSize: "16px", fontWeight: "400", width: "737px", paddingTop: "21px" }} >26 December, 2022</p>
                   <button ><img style={{ width: "180px" }} src='./Images/buttonarrow.png' alt='button' /></button>
@@ -98,9 +98,9 @@ const Blog = () => {
 
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
             <div style={{ width: "382px", height: "521px", backgroundColor: "#FFFFFF", borderRadius: "62px", margin:"10px" }}>
-              <img style={{ padding: "21px 21px 0" }} src='./Images/half1.png' alt='card' />
+              <img style={{ padding: "21px 21px 0" }} src='./Images/half4.png' alt='card' />
               <div>
-                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Let’s Get Solution For Building Construction Work</h1>
+                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Best For Any Office & Business Interior Solution</h1>
                 <div style={{ display: "flex", width: "340px", paddingLeft: "21px", paddingTop: "30px" }}>
                   <p style={{ fontFamily: "Jost", fontSize: "16px", fontWeight: "400", width: "737px", paddingTop: "21px" }} >26 December, 2022</p>
                   <button ><img style={{ width: "180px" }} src='./Images/buttonarrow.png' alt='button' /></button>
@@ -109,7 +109,7 @@ const Blog = () => {
             </div>
 
             <div style={{ width: "382px", height: "521px", backgroundColor: "#E7E7E7", borderRadius: "62px", margin:"10px" }}>
-              <img style={{ padding: "21px 21px 0" }} src='./Images/half1.png' alt='card' />
+              <img style={{ padding: "21px 21px 0" }} src='./Images/half5.png' alt='card' />
               <div>
                 <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Let’s Get Solution For Building Construction Work</h1>
                 <div style={{ display: "flex", width: "340px", paddingLeft: "21px", paddingTop: "30px" }}>
@@ -120,9 +120,9 @@ const Blog = () => {
             </div>
 
             <div style={{ width: "382px", height: "521px", backgroundColor: "#FFFFFF", borderRadius: "62px", margin:"10px" }}>
-              <img style={{ padding: "21px 21px 0" }} src='./Images/half1.png' alt='card' />
+              <img style={{ padding: "21px 21px 0" }} src='./Images/half6.png' alt='card' />
               <div>
-                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Let’s Get Solution For Building Construction Work</h1>
+                <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", padding: "21px 21px 5px" }} >Best For Any Office & Business Interior Solution</h1>
                 <div style={{ display: "flex", width: "340px", paddingLeft: "21px", paddingTop: "30px" }}>
                   <p style={{ fontFamily: "Jost", fontSize: "16px", fontWeight: "400", width: "737px", paddingTop: "21px" }} >26 December, 2022</p>
                   <button ><img style={{ width: "180px" }} src='./Images/buttonarrow.png' alt='button' /></button>
