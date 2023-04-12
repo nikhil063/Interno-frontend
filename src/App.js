@@ -1,4 +1,3 @@
-
 import { Routes, Route } from 'react-router-dom';
 import Pages from './components/Pages';
 import Navbar from './components/Navbar';
@@ -11,6 +10,9 @@ import Mainpage from './components/Mainpage';
 import About from './components/About';
 import Team from './components/Team';
 import Teamsingle from './components/Teamsingle';
+import Changelog from './components/Changelog';
+import Licences from './components/Licences';
+import Faq from './components/Faq';
 
 
 function App() {
@@ -27,10 +29,11 @@ function App() {
         <Route path='/contacts' element={<Contacts />} />
         <Route path='/team' element={<Team />} />
         <Route path='team/teamsingle' element={<Teamsingle />} />
+        <Route path='/changelog' element={<Changelog />} />
+        <Route path='/licences' element={<Licences />} />
+        <Route path='/faq' element={<Faq />} />
         <Route path='*' element={<Nomatch />} />
       </Routes>
-
-
     </>
   );
 }
