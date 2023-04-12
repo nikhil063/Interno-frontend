@@ -164,52 +164,52 @@ function Mainpage() {
 
 
 
-      <div style={{display:"flex", flexWrap:"wrap", width:"1201px", marginLeft:"auto", marginRight:"auto"}}>
+      <div style={{display:"flex", flexWrap:"wrap", width:"1201px", marginLeft:"auto", marginRight:"auto", justifyContent:"center"}}>
 
 
-        <div style={{display:"flex", justifyContent:"center"}}>
-          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap"}} >
+        <div style={{display:"flex", justifyContent:"center", marginBottom:"25px"}}>
+          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", marginRight:"70px"}} >
             <img src='./Images/dispy.png' alt='display' style={{borderRadius:"0px", width:"525px"}} />
             <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-              <div style={{width:"619px"}}>
+              <div style={{width:"455px"}}>
                 <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
               </div>
-              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon' /></button></div>
+              <div style={{width:"70px"}}> <button><img src='./Images/buttonarrow.png' alt='icon' /></button></div>
             </div>
           </div>
-          <div style={{display:"flex", flex:"50%", flexDirection:"column", flexWrap:"wrap"}} >
+          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", marginRight:"70px"}} >
             <div><img src='./Images/dispy2.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
             <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-              <div style={{width:"619px"}}>
+              <div style={{width:"455px"}}>
                 <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
               </div>
-              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
+              <div style={{width:"70px"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
             </div>
           </div>
         </div>
 
 
         <div style={{display:"flex", justifyContent:"center"}}>
-          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", flex:"50%"}} >
+          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap",marginRight:"70px"}} >
             <div><img src='./Images/dispy3.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
             <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-              <div style={{width:"619px"}}>
+              <div style={{width:"455px"}}>
                 <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
               </div>
-              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
+              <div style={{width:"70px"}}> <button><img src='./Images/buttonarrow.png' alt='icon'/></button></div>
             </div>
           </div>
-          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", flex:"50%"}} >
+          <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", marginRight:"70px"}} >
             <div><img src='./Images/dispy4.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
             <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
-              <div style={{width:"619px"}}>
+              <div style={{width:"455px"}}>
                 <h1 style={{fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400"}}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400"}}>Decor/ Architecture</p>
               </div>
-              <div style={{width:"50%"}}> <button><img src='./Images/buttonarrow.png' alt='arrow icon'/></button></div>
+              <div style={{width:"70px"}}> <button><img src='./Images/buttonarrow.png' alt='arrow icon'/></button></div>
             </div>
           </div>
         </div>

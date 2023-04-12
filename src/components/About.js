@@ -33,7 +33,7 @@ const About = () => {
             that it has a more-or-less normal. </p>
             <button style={{
             backgroundColor: '#292F36', color: "#FFFFFF",  borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-            alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px",marginLeft:"auto", marginRight:"auto"
+            alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px", marginRight:"auto"
           }}><div style={{display:"flex",justifyContent: "space-between", paddingTop:"0px",paddingBottom:"0px", paddingLeft:"51px"}}>Our concept</div><img style={{paddingRight:"61px"}} src='./Images/arrow.png' alt='arrow' /></button>
         </div>
 
@@ -54,7 +54,7 @@ const About = () => {
             that it has a more-or-less normal. </p>
             <button style={{
             backgroundColor: '#292F36', color: "#FFFFFF",  borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-            alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px",marginLeft:"auto", marginRight:"auto"
+            alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px", marginRight:"auto"
           }}><div style={{display:"flex",justifyContent: "space-between", paddingTop:"0px",paddingBottom:"0px", paddingLeft:"51px"}}>Our Portfolio</div><img style={{paddingRight:"61px"}} src='./Images/arrow.png' alt='arrow' /></button>
         </div>
       </div>
