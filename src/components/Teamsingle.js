@@ -55,7 +55,6 @@ function Teamsingle() {
 
       <div style={{ display: "flex", justifyContent:"center", alignContent:"center",width: "1201px", marginLeft:"auto", marginRight:"auto" }}>
 
-
         <div style={{width:"50%"}} >
           <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Simplicity and functionality</h1>
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingTop:"40px" }}>

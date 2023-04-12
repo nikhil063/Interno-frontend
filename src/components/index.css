@@ -1,11 +1,21 @@
-/* body{
+body{
     margin:0;
 }
 
 #root{
     width:1920px;
     margin: 0 auto;
-} */
+}
+
+button:hover{
+    opacity: 70%;
+    scale: 1.01;
+
+}
+
+button:active{
+    opacity:40%
+}
 
 nav {
     background-color: rgb(255, 255, 255);
