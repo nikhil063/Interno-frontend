@@ -164,10 +164,10 @@ function Mainpage() {
 
 
 
-      <div style={{display:"flex", flexWrap:"wrap", width:"1201px", marginLeft:"auto", marginRight:"auto", justifyContent:"center"}}>
+      <div style={{display:"flex", flexWrap:"wrap", width:"1120px", marginLeft:"auto", marginRight:"auto", justifyContent:"center"}}>
 
 
-        <div style={{display:"flex", justifyContent:"center", marginBottom:"25px"}}>
+        <div style={{display:"flex", justifyContent:"space-between", marginBottom:"25px", width:"1120px"}}>
           <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap", marginRight:"70px"}} >
             <img src='./Images/dispy.png' alt='display' style={{borderRadius:"0px", width:"525px"}} />
             <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
@@ -191,7 +191,7 @@ function Mainpage() {
         </div>
 
 
-        <div style={{display:"flex", justifyContent:"center"}}>
+        <div style={{display:"flex", justifyContent:"space-between", width:"1120px"}}>
           <div style={{display:"flex", flexDirection:"column", flexWrap:"wrap",marginRight:"70px"}} >
             <div><img src='./Images/dispy3.png' alt='display' style={{borderRadius:"0px", width:"525px"}} /></div>
             <div style={{display:"flex", paddingTop:"24px", justifyContent:"space-evenly" }} >
