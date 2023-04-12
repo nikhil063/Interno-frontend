@@ -25,7 +25,7 @@ export default function Team() {
         <Link to='/team/teamsingle'>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "11px" }}>
             <img src='./Images/team1.jpg' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>John Smith</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
               Home/  Services
             </p>
@@ -37,7 +37,7 @@ export default function Team() {
 
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "22px" }}>
           <img src='./Images/team2.png' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-          <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+          <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Levi Muewenberg</h1>
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
             Home/  Services
           </p>
@@ -45,7 +45,7 @@ export default function Team() {
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "22px" }}>
           <img src='./Images/team3.png' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-          <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+          <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Nattasha Joulie</h1>
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
             Home/  Services
           </p>
@@ -53,7 +53,7 @@ export default function Team() {
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "22px" }}>
           <img src='./Images/team4.jpg' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-          <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+          <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Nora Owen</h1>
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
             Home/  Services
           </p>
@@ -66,7 +66,7 @@ export default function Team() {
         <div style={{ display: "flex", justifyContent: "center", alignContent: "center" }}>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "11px" }}>
             <img src='./Images/team5.png' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Avery Jackson</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
               Home/  Services
             </p>
@@ -74,7 +74,7 @@ export default function Team() {
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "22px" }}>
             <img src='./Images/team6.jpg' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Sofia Carter</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
               Home/  Services
             </p>
@@ -82,7 +82,7 @@ export default function Team() {
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "22px" }}>
             <img src='./Images/team7.png' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Luna James</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
               Home/  Services
             </p>
@@ -90,7 +90,7 @@ export default function Team() {
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center", flexDirection: "column", textAlign: 'center', margin: "22px" }}>
             <img src='./Images/team8.png' alt='userimg' style={{ width: "283px", height: "433px", borderRadius: "40px" }} />
-            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Charlotte Levi</h1>
+            <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400", marginTop: "15px" }}>Gianna Mateo</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
               Home/  Services
             </p>
