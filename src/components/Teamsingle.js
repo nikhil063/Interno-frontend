@@ -53,7 +53,7 @@ function Teamsingle() {
         </p>
       </div>
 
-      <div style={{ display: "flex", justifyContent:"center", alignContent:"center",width: "1201px", marginLeft:"360px", marginRight:"360px" }}>
+      <div style={{ display: "flex", justifyContent:"center", alignContent:"center",width: "1201px", marginLeft:"auto", marginRight:"auto" }}>
 
 
         <div style={{width:"50%"}} >
