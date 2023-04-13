@@ -6,9 +6,9 @@ function Footer() {
     <>
             <div style={{display:"flex", justifyContent:"space-evenly", paddingTop:"135px", width:"1199px", marginRight: "auto", marginLeft: "auto"}} >
         <div style={{width:"393px"}}>
-          <h1 className='flex items-center'><img src='./Images/logoInterno.png' alt='logo' style={{ height: "34px", width: "34px", marginBottom:"18px" }} /><span>Interno</span></h1>
+          <h1 className='flex items-center'><img src='/Images/logoInterno.png' alt='logo' style={{ height: "34px", width: "34px" }} /><span>Interno</span></h1>
           <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400",paddingBottom:"31px", color:"#4D5053"  }} >It is a long established fact that a reader will be distracted lookings.</p>
-          <img src='./Images/socials.png' alt='socials' />
+          <img src='/Images/socials.png' alt='socials' />
         </div>
 
         <div style={{width:"125px"}}>
@@ -28,7 +28,7 @@ function Footer() {
           <h1 style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", marginBottom:"18px" }} >Services</h1>
 
           <ul style={{ fontFamily:"Jost", color: "#4D5053", display:"flex", flexDirection:"column", fontSize:"22px" }}>
-            <li>Kitchen Us</li>
+            <li>Kitchen</li>
             <li>Living area</li>
             <li>Bathroom</li>
             <li>Dining hall</li>
