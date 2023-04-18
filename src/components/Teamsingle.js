@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Footer from './Footer';
+import Dropdown2 from './Dropdown2';
 
 function Teamsingle() {
   useEffect(() => {
@@ -63,20 +64,28 @@ function Teamsingle() {
             <br />
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, njecthumour.
           </p>
-          <img src='/Images/noslider.png' alt='not a slider' style={{width:"534px", marginTop:"40px"}} />
+          <img src='/Images/noslider.png' alt='not a slider' style={{width:"483px", marginTop:"40px"}} />
         </div>
 
         <div style={{ width:"50%", paddingLeft:"40px" }}>
         <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Question and Answer</h1>
         <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" , padding: "30px 0px 32px"}}>
           Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
-          
-         <img src='/Images/subcontent.png' alt='features' />
+          <Dropdown2 label="Website & Mobile App Design">
+            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
+          </Dropdown2>
+          <Dropdown2 label="How To Easy Succesful Design?">
+            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
+          </Dropdown2>
+          <Dropdown2 label="International Trade Experience?">
+            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
+          </Dropdown2>
         </div>
       </div>
 
 <div style={{ width: "100%", backgroundColor: "#F4F0EC", height: "968px", marginTop: "173px", marginBottom: "213px" }}>
 <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", textAlign: "center", paddingTop: "185px", paddingBottom:"30px" }} >Our Team Members</h1>
+
 <img src='/Images/comments.png' alt='users' style={{ marginRight: "auto", marginLeft: "auto" }} />
 </div>
 

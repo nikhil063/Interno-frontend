@@ -3,6 +3,7 @@ import './index.css'
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import Blackbutton from './Blackbutton';
+import Brownbutton from './Brownbutton';
 
 
 function Mainpage() {
@@ -272,10 +273,9 @@ function Mainpage() {
 
           <div style={{ paddingTop: "21px" }}>
             <Link to='/contacts'>
-              <button style={{
-                backgroundColor: '#CDA274', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-                alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", marginLeft: "auto", marginRight: "auto", padding: "26px 33px"
-              }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "20px" }}>Contact With Us</div><img style={{ paddingLeft: "15px", width: "39px" }} src='./Images/blackarrow.png' alt='arrow' /></button>
+              <div style={{display:"flex", justifyContent:"center"}}>
+                <Brownbutton label='Contact With Us' />
+              </div>
             </Link>
           </div>
 

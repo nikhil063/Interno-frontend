@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Blackbutton from './Blackbutton'
+import Brownbutton from './Brownbutton'
 
 function Pricing() {
   return (
@@ -22,10 +23,9 @@ function Pricing() {
                         <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", textAlign:"center", padding:"10px 0px" }}>Upto 5 hours meetings</p>
                         <div style={{ paddingTop: "21px" }}>
           
-                  <button style={{
-                    backgroundColor: '#CDA274', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-                    alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", marginLeft: "auto", marginRight: "auto", padding: "26px 33px"
-                  }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "20px" }}>Get Started</div><img style={{ paddingLeft: "15px", width: "39px" }} src='/Images/blackarrow.png' alt='arrow' /></button>
+                        <div style={{display:"flex", justifyContent:"center"}}>
+                        <Brownbutton label='Get Started' />
+                  </div>
           
               </div>
                         
@@ -85,10 +85,10 @@ function Pricing() {
                         <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", textAlign:"center", padding:"10px 0px" }}>Kitchen</p>
                         <div style={{ paddingTop: "21px" }}>
           
-                  <button style={{
-                    backgroundColor: '#CDA274', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-                    alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", marginLeft: "auto", marginRight: "auto", padding: "26px 33px"
-                  }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "20px" }}>Get Started</div><img style={{ paddingLeft: "15px", width: "39px" }} src='/Images/blackarrow.png' alt='arrow' /></button>
+                        <div style={{display:"flex", justifyContent:"center"}}>
+                        <Brownbutton label='Get Started' />
+                  </div>
+          
           
               </div>
                         
