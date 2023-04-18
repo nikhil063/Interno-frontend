@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import Blackbutton from './Blackbutton'
 
 function Pricing() {
   return (
@@ -37,7 +38,7 @@ function Pricing() {
           
           
           <div style={{padding:"27px 0px", borderRadius:"33px", backgroundColor:"#F4F0EC", height:"722px", margin:"50px 0px", width:"368px"}}>
-          <div style={{borderBottomWidth:"2px", borderBottomColor:"#CDA274", height:"280px", marginBottom:"0px", width:"368px", position: "relative",padding: "10px"}}>
+          <div style={{borderBottomWidth:"2px", borderBottomColor:"#CDA274", height:"280px", marginBottom:"0px", width:"368px", position: "relative", padding: "10px"}}>
               <p style={{ fontFamily: "DM serif display", fontSize: "25px", margin:"64px 0px 0px" , fontWeight: "400", textAlign: "center" }}>Design Avices</p>
               <div style={{display:"flex", justifyContent:"center"}}>
             <p style={{ fontFamily: "DM serif display", fontSize: "25px", fontWeight: "400", marginTop:"66px" }}>$</p>
@@ -54,10 +55,9 @@ function Pricing() {
                         <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", textAlign:"center", padding:"10px 0px" }}>Upto 5 hours meetings</p>
                         <div style={{ paddingTop: "21px" }}>
           
-                        <button style={{
-                  backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-                  alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft:'auto', marginRight:"auto"
-                }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Get Started</div><img style={{ paddingRight: "61px" }} src='./Images/arrow.png' alt='arrow' /></button>
+                        <div style={{display:"flex", justifyContent:"center"}}>
+                    <Blackbutton label="Get Started" />
+                  </div>
           
               </div>
                         

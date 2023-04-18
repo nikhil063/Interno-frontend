@@ -41,7 +41,6 @@ const Projectsingle = () => {
     </div>
 
 
-   
     <div style={{ backgroundImage: `url(${require('./Images/projectside.png')}`, width:"1201px", height:"799px", borderRadius:"70px", marginLeft:"auto", marginRight:"auto", marginTop:"100px", marginBottom:"200px" }}>
       <button style={{padding:"318px 534px"}}><img src='/Images/zoomicon.png' alt='zoomicon' style={{width:"132px"}} /></button>
       

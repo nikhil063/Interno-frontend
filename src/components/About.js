@@ -33,7 +33,9 @@ const About = () => {
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
             when lookings at its layouts the points of using
             that it has a more-or-less normal. </p>
-            <Blackbutton label="Our Concept" />
+            <Link to='/services'>
+              <Blackbutton label="Our Concept" />
+            </Link>
         </div>
 
         <img src='./Images/q1.jpg' alt="quotes" style={{ width: "659px", height: "377px", borderRadius: "70px 70px 70px 70px" }} />

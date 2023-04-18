@@ -10,28 +10,29 @@ function Navbar() {
                 <h1 style={{display:"flex", justifyContent:"center", paddingLeft:"0px", marginTop:"5px"}}><img src='/Images/logoInterno.png' alt='logo' style={{height:"34px", width:"34px", marginTop:"5px"}}/><span style={{fontFamily:"DM serif display", fontSize:"40px", fontWeight:"400"}}>Interno</span></h1>
                 <ul style={{display:"flex", justifyContent:"center", alignContent:"center", height:"25px", marginTop:"10px" }}>
                     <li>
-                        <Link to='/'>Home</Link>
+                        <Link to='/'><button>Home</button></Link>
                     </li>
                     <li>
-                        <Link to='/about'>About</Link>
+                        <Link to='/about'><button>About</button></Link>
                     </li>
                     <li>
-                        <Link to='/pages'>Pages</Link>
+                        <Link to='/pages'><button>Pages</button></Link>
                     </li>
                     <li>
-                        <Link to='/services'>Services</Link>
+                        <Link to='/services'><button>Services</button></Link>
                     </li>
                     <li>
-                        <Link to='/project'>Project</Link>
+                        <Link to='/project'><button>Project</button></Link>
                     </li>
                     <li>
-                        <Link to='/blog'>Blog</Link>
+                        <Link to='/blog'><button>Blog</button></Link>
                     </li>
                     <li>
-                        <Link to='/contacts'>Contacts</Link>
+                        <Link to='/contacts'><button>Contacts</button></Link>
                     </li>
                     <li>
-                        <Link to='/search'><img src='/Images/search.png' alt='search'/></Link>
+                            <Link to='/search'><button><img src='/Images/search.png' alt='search'/>
+                        </button></Link>
                     </li>
                 </ul>
             </div>

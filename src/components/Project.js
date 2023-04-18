@@ -46,7 +46,7 @@ function Project() {
                                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                             </div>
                             <div style={{ width: "70px", height:"70px" }}>
-                            <Link to='/projectsingle'><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></Link>
+                            <Link to='projectsingle'><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></Link>
                             </div>
                         </div>
                     </div>

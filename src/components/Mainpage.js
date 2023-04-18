@@ -53,26 +53,26 @@ function Mainpage() {
           <h1 style={{ fontFamily: 'DM serif display', fontSize: "25px", fontWeight: "400", paddingBottom: "20px" }}>Project Plan</h1>
           <p style={{ fontFamily: 'Jost', fontSize: "20px", fontWeight: "400", paddingBottom: "52px" }}>There are many variations of the passages of lorem Ipsum from
             available, majority.</p>
-          <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{ paddingTop: "9px", paddingLeft: "9px" }} src='./Images/arrow.png' alt='arrow' /></button>
+          <Link to='/faq'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{ paddingTop: "9px", paddingLeft: "9px" }} src='./Images/arrow.png' alt='arrow' /></button></Link>
         </div>
         <div style={{
           width: "358px",
           height: "225px", marginLeft: 'auto',
           marginRight: "auto"
         }}>
-          <h1 style={{ fontFamily: 'DM serif display', fontSize: "25px", fontWeight: "400", paddingBottom: "20px" }}>Project Plan</h1>
+          <h1 style={{ fontFamily: 'DM serif display', fontSize: "25px", fontWeight: "400", paddingBottom: "20px" }}>Interior work</h1>
           <p style={{ fontFamily: 'Jost', fontSize: "20px", fontWeight: "400", paddingBottom: "52px" }}>There are many variations of the passages of lorem Ipsum from
             available, majority.</p>
-          <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{ paddingTop: "9px", paddingLeft: "9px" }} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='/faq'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{ paddingTop: "9px", paddingLeft: "9px" }} src='./Images/arrow.png' alt='arrow' /></button></Link>
         </div>
         <div style={{
           width: "358px",
           height: "225px", marginRight: "42px"
         }}>
-          <h1 style={{ fontFamily: 'DM serif display', fontSize: "25px", fontWeight: "400", paddingBottom: "20px" }}>Project Plan</h1>
+          <h1 style={{ fontFamily: 'DM serif display', fontSize: "25px", fontWeight: "400", paddingBottom: "20px" }}>Realization</h1>
           <p style={{ fontFamily: 'Jost', fontSize: "20px", fontWeight: "400", paddingBottom: "52px" }}>There are many variations of the passages of lorem Ipsum from
             available, majority.</p>
-          <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{ paddingTop: "9px", paddingLeft: "9px" }} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='/faq'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{ paddingTop: "9px", paddingLeft: "9px" }} src='./Images/arrow.png' alt='arrow' /></button></Link>
         </div>
       </div>
 
@@ -177,7 +177,9 @@ function Mainpage() {
                 <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
               </div>
-              <div style={{ width: "70px" }}> <button><img src='./Images/buttonarrow.png' alt='icon' /></button></div>
+              <div style={{ width: "70px" }}> 
+              <Link to='project'><button ><img style={{ width: "70px", height:"70px" }} src='./Images/buttonarrow.png' alt='icon' /></button></Link>
+              </div>
             </div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", marginRight: "70px" }} >
@@ -187,7 +189,7 @@ function Mainpage() {
                 <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
               </div>
-              <div style={{ width: "70px" }}> <button><img src='./Images/buttonarrow.png' alt='icon' /></button></div>
+              <div style={{ width: "70px" }}> <Link to='project'><button ><img style={{ width: "70px", height:"70px" }} src='./Images/buttonarrow.png' alt='icon' /></button></Link></div>
             </div>
           </div>
         </div>
@@ -201,7 +203,7 @@ function Mainpage() {
                 <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
               </div>
-              <div style={{ width: "70px" }}> <button><img src='./Images/buttonarrow.png' alt='icon' /></button></div>
+              <div style={{ width: "70px" }}> <Link to='project'><button ><img style={{ width: "70px", height:"70px" }} src='./Images/buttonarrow.png' alt='icon' /></button></Link></div>
             </div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", marginRight: "70px" }} >
@@ -211,7 +213,7 @@ function Mainpage() {
                 <h1 style={{ fontFamily: "DM serif display", fontSize: "22px", fontWeight: "400" }}>Modern Kitchen</h1>
                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
               </div>
-              <div style={{ width: "70px" }}> <button><img src='./Images/buttonarrow.png' alt='arrow icon' /></button></div>
+              <div style={{ width: "70px" }}> <Link to='project'><button ><img style={{ width: "70px", height:"70px" }} src='./Images/buttonarrow.png' alt='icon' /></button></Link></div>
             </div>
           </div>
         </div>
