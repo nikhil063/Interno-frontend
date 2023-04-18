@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './index.css'
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 function Services() {
   useEffect(() => {
@@ -31,7 +32,7 @@ function Services() {
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
               that it has a more-or-less normal. </p>
-            <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='servicesingle'><Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link></Link>
           </div>
 
 
@@ -40,7 +41,7 @@ function Services() {
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
               that it has a more-or-less normal. </p>
-            <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link>
           </div>
 
 
@@ -49,7 +50,7 @@ function Services() {
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
               that it has a more-or-less normal. </p>
-            <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link>
           </div>
 
 
@@ -63,7 +64,7 @@ function Services() {
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
               that it has a more-or-less normal. </p>
-            <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link>
           </div>
 
 
@@ -72,7 +73,7 @@ function Services() {
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
               that it has a more-or-less normal. </p>
-            <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link>
           </div>
 
 
@@ -81,7 +82,7 @@ function Services() {
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
               that it has a more-or-less normal. </p>
-            <button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link>
           </div>
         </div>
       </div>
@@ -104,10 +105,12 @@ function Services() {
           <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400",color:"#FFFFFF"}} >It is a long established fact that a reader will be distracted</p>
 
           <div style={{paddingTop:"21px"}}>
+          <Link to='/contacts'>
               <button style={{
-              backgroundColor: '#CDA274', color: "#FFFFFF",  borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-              alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft:"auto", marginRight:"auto"
-                        }}><div style={{display:"flex",justifyContent: "space-between", paddingTop:"0px",paddingBottom:"0px", paddingLeft:"51px"}}>Contact With Us</div><img style={{paddingRight:"61px", paddingLeft:"10px"}} src='./Images/blackarrow.png' alt='arrow' /></button>
+                backgroundColor: '#CDA274', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
+                alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", marginLeft: "auto", marginRight: "auto", padding: "26px 33px"
+              }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "20px" }}>Contact With Us</div><img style={{ paddingLeft: "15px", width: "39px" }} src='/Images/blackarrow.png' alt='arrow' /></button>
+            </Link>
             </div>
       </div>
       </div>

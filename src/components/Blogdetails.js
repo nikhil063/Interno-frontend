@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
+import Tagbutton from '../Tagbutton'
+import Blackbutton from './Blackbutton'
 
 function Blogdetails() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div style={{ backgroundImage: `url(${require('./Images/projectbanner.png')}`, height: "356px", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -62,8 +67,8 @@ function Blogdetails() {
                     <div style={{ margin: "106px 0px 137px", display: "flex", justifyContent: "space-between" }}>
                         <div style={{ display: "flex", justifyContent: "space-between", width: "306px" }}>
                             <p style={{ fontFamily: "DM serif display", fontSize: "20px", padding: "10px 0px" }}>Tags</p>
-                            <button style={{ backgroundColor: "#292F36", borderRadius: "10px", color: "#F4F0EC", padding: "13px 22px" }}>Kitchen</button >
-                            <button style={{ backgroundColor: "#F4F0EC", borderRadius: "10px", color: "#292F36", padding: "13px 22px" }}>Bedroom</button >
+                            <Tagbutton text="Kitchen" />
+                            <Tagbutton text="Bedroom" />
                         </div>
                         <img style={{ width: "225px", height: "25px" }} src='/Images/socials.png' alt='' />
                     </div>
@@ -74,8 +79,10 @@ function Blogdetails() {
 
                 <div style={{ width: "345px" }}>
 
-                    <div >
-                        <input style={{ width: "345px", backgroundColor: "#F4F0EC", borderRadius: "20px", padding: "34px 33px", outline: "0px" }} type='text' placeholder='Search'></input>
+                    <div style={{display:"flex", justifyContent:"space-between",backgroundColor: "#F4F0EC", borderRadius: "20px", padding: "34px 33px"}} >
+                        <input style={{ width: "345px", outline: "0px",backgroundColor: "#F4F0EC" }} type='text' placeholder='Search'></input>
+                        <button><img src='/Images/searchicon.png' alt='search' /></button>
+                        
                     </div>
 
                     <div style={{ borderBottomWidth: "2px", borderBottomColor: "#CDA274", textAlign: "left" }}>
@@ -111,18 +118,16 @@ function Blogdetails() {
 <div style={{ margin: "50px 0px 137px", width:"345px" }}>
                         
                             <p style={{ fontFamily: "DM serif display", fontSize: "20px", padding: "10px 0px" }}>Tags</p>
+                            <Tagbutton text="Kitchen" />
 
-                            <button style={{ backgroundColor: "#292F36", borderRadius: "10px", color: "#F4F0EC", padding: "13px 22px", margin:"5px" }}>Kitchen</button >
+                           <Tagbutton text="Bedroom"/>
+                           <Tagbutton text="Building"/>
+                           <Tagbutton text="Architecture"/>
+                           <Tagbutton text="Kitchen planning"/>
+                           <Tagbutton text="Bedroom"/>
 
-                            <button style={{ backgroundColor: "#F4F0EC", borderRadius: "10px", color: "#292F36", padding: "13px 22px", margin:"5px" }}>Bedroom</button >
-
-                            <button style={{ backgroundColor: "#F4F0EC", borderRadius: "10px", color: "#292F36", padding: "13px 22px", margin:"5px" }}>Building</button >
-
-                            <button style={{ backgroundColor: "#F4F0EC", borderRadius: "10px", color: "#292F36", padding: "13px 22px", margin:"5px" }}>Architecture</button >
-
-                            <button style={{ backgroundColor: "#F4F0EC", borderRadius: "10px", color: "#292F36", padding: "13px 22px", margin:"5px" }}>Kitchen planning</button >
-
-                            <button style={{ backgroundColor: "#F4F0EC", borderRadius: "10px", color: "#292F36", padding: "13px 22px", margin:"5px" }}>Bedroom</button >
+                           
+                           
                       
                     </div>
 
@@ -152,10 +157,9 @@ function Blogdetails() {
 </div>
 
 </form>
-<button style={{
-  backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-  alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft: "0px", marginRight:"auto", marginTop:"40px"
-}}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Send now</div><img style={{ paddingRight: "61px" }} src='/Images/arrow.png' alt='arrow' /></button>
+<div style={{display:"flex", justifyContent:"center", margin:"25px 0px 0px"}}>
+                <Blackbutton label="Send Now" />
+            </div>
 </div>
 
 <Footer />

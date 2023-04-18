@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
+import Blackbutton from './Blackbutton'
+import { Link } from 'react-router-dom';
 
 function Servicesingle() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <>
       <div style={{ backgroundImage: `url(${require('./Images/teambanner.jpg')}`, height: "356px", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -122,13 +127,14 @@ function Servicesingle() {
 
     <div style={{display:"flex", width:"1201px", height:"377px", marginLeft:"auto", marginRight:"auto", marginTop:"200px", justifyContent:"space-between"}}>
         <img style={{width:"600px", height:"377px", borderRadius:"70px"}} src='/Images/ss1.jpg' alt='' />
-        <div style={{display:"flex", width:"518px", flexDirection:"column"}}>
+        <div style={{display:"flex", width:"518px", flexDirection:"column", height:"300px", justifyContent:"space-between"}}>
             <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400", width:"545px", height:"471px" }}>We love design. That's how we got here</h1>
             <p style={{ fontFamily: "Jost", fontSize: "22px", textAlign:"justify" }}>when lookings at its layouts the points spriof using that it has a more</p>
-            <button style={{
-                  backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-                  alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px", marginLeft:'auto', marginRight:"0px"
-                }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Get Started</div><img style={{ paddingRight: "61px" }} src='./Images/arrow.png' alt='arrow' /></button>
+            <div style={{display:"flex", justifyContent:"start", margin:"25px 0px 0px"}}>
+                <Link to='/project'>
+                    <Blackbutton label="Our Portfolio" />
+                </Link>
+            </div>
         </div>
     </div>
 

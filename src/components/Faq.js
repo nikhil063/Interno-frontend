@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './index.css'
 import DropdownAccordion from './DropdownAccordion'
 import Footer from './Footer'
 
 
 function Faq() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
     return (
         <>
         <div style={{ backgroundImage: `url(${require('./Images/blogbanner.jpg')}`, height: "356px", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
         <div style={{ marginTop: "178px", backgroundColor: "#ffffff", width: "503px", height: "178px", borderRadius: "37px 37px 0 0", display: "flex", justifyContent: "center" }}>
 
           <div style={{ textAlign: "center",  paddingTop: "35px" }}>
-            <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400" }}>Faq's</h1>
+            <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400" }}>FAQs</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
               Home/ Faq
             </p>

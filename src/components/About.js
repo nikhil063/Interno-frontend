@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import './index.css'
 import Footer from './Footer';
+import Blackbutton from './Blackbutton';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -31,10 +33,7 @@ const About = () => {
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
             when lookings at its layouts the points of using
             that it has a more-or-less normal. </p>
-            <button style={{
-            backgroundColor: '#292F36', color: "#FFFFFF",  borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-            alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px", marginRight:"auto"
-          }}><div style={{display:"flex",justifyContent: "space-between", paddingTop:"0px",paddingBottom:"0px", paddingLeft:"51px"}}>Our concept</div><img style={{paddingRight:"61px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Blackbutton label="Our Concept" />
         </div>
 
         <img src='./Images/q1.jpg' alt="quotes" style={{ width: "659px", height: "377px", borderRadius: "70px 70px 70px 70px" }} />
@@ -52,10 +51,9 @@ const About = () => {
           <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
             when lookings at its layouts the points of using
             that it has a more-or-less normal. </p>
-            <button style={{
-            backgroundColor: '#292F36', color: "#FFFFFF",  borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-            alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px", marginRight:"auto"
-          }}><div style={{display:"flex",justifyContent: "space-between", paddingTop:"0px",paddingBottom:"0px", paddingLeft:"51px"}}>Our Portfolio</div><img style={{paddingRight:"61px"}} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='/project'>
+              <Blackbutton label="Our Portfolio" />
+            </Link>
         </div>
       </div>
 
@@ -80,12 +78,10 @@ const About = () => {
           <input type='text' placeholder='Hello I am Interested In...' style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px", color: "#000000", width: "796px", marginRight: "auto", marginLeft: "auto", height: "277px", borderBottomWidth:"3px", borderBottomColor:"#000000", outline:"0" }} />
         </div>
 
-        <button style={{
-            backgroundColor: '#292F36', color: "#FFFFFF",  borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-            alignItems:"flex-end",flexWrap:"wrap", width: "253px", height: "75px", padding: "26px 0px",marginLeft:"auto", marginRight:"auto", marginTop:"40px"
-          }}><div style={{display:"flex",justifyContent: "space-between", paddingTop:"0px",paddingBottom:"0px", paddingLeft:"51px"}}>Send now</div><img style={{paddingRight:"61px"}} src='./Images/arrow.png' alt='arrow' /></button>
-
       </form>
+      <div style={{marginLeft:"auto", marginRight:"auto", width:"253px"}}>
+          <Blackbutton label="Send Now" />
+        </div>
 
       <Footer />
 

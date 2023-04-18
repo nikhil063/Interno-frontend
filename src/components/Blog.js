@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './index.css'
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const Blog = () => {
       <div style={{ backgroundImage: `url(${require('./Images/blogbanner.jpg')}`, height: "356px", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
         <div style={{ marginTop: "178px", backgroundColor: "#ffffff", width: "503px", height: "178px", borderRadius: "37px 37px 0 0", display: "flex", alignItems: "center" }}>
 
-          <div style={{ textAlign: "center", paddingLeft: "140px", paddingRight: "140px", paddingTop: "35px" }}>
+          <div style={{ textAlign: "center", marginLeft: "auto", marginRight: "auto", paddingTop: "35px" }}>
             <h1 style={{ fontFamily: "DM serif display", fontSize: "50px", fontWeight: "400" }}>Article & News</h1>
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400" }}>
               Home/ Blog
@@ -38,7 +39,7 @@ const Blog = () => {
               Lorem Ipsum is not simply random text. It has roots in a piece of classica.</p>
             <div style={{ display: "flex" }}>
               <p style={{ fontFamily: "Jost", fontSize: "16px", fontWeight: "400", width: "737px" }} >26 December, 2022</p>
-              <button ><img style={{ width: "150px"}} src='./Images/buttonarrow.png' alt='button' /></button>
+              <button ><Link to='blogdetails'><img style={{ width: "150px", height:"84px"}} src='/Images/buttonarrow.png' alt='button' /></Link></button>
             </div>
           </div>
         </div>
@@ -136,6 +137,14 @@ const Blog = () => {
 
 
       </div>
+
+      
+<div style={{display:"flex", justifyContent:"space-between", width:"268px",marginTop:"100px",marginLeft:"auto", marginRight:"auto" }}>
+    <button><img src='/Images/1.png' alt='1' /></button>
+    <button><img src='/Images/2.png' alt='2' /></button>
+    <button><img src='/Images/4.png' alt='4' /></button>
+    <button><img src='/Images/3.png' alt='3' /></button>
+</div>
 
 <Footer />
     </>

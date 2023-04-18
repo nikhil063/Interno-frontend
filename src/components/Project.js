@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import './index.css'
 import { Link } from 'react-router-dom'
 import Footer from './Footer';
+import './index.css'
 
 function Project() {
     useEffect(() => {
@@ -23,10 +23,10 @@ function Project() {
 
 
 <div style={{width:"880px", height:"75px", marginLeft:"auto", marginRight:"auto", borderWidth:"2px", borderColor:"#CDA274", borderRadius:"18px", display:"flex", justifyContent:"space-between", marginTop:"200px"}} >
-    <button className='horizontalButton' style={{padding:"0px 50px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"25px"}} >Bedroom </button>
-    <button className='horizontalButton' style={{padding:"0px 50px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"25px"}} >Bathroom</button>
-    <button className='horizontalButton' style={{padding:"0px 50px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"25px"}} >Kitchen</button>
-    <button className='horizontalButton' style={{padding:"0px 50px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"25px"}} >Living Room </button>
+    <button style={{padding:"0px 50px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"25px"}} >Bedroom </button>
+    <button style={{padding:"0px 60px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"20px", backgroundColor:"#CDA274", color:"#ffffff"}} >Bathroom</button>
+    <button style={{padding:"0px 50px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"25px"}} >Kitchen</button>
+    <button style={{padding:"0px 50px", fontSize:"18px", fontWeight:"600", fontFamily:"Jost", borderRadius:"25px"}} >Living Room </button>
 
 
 </div>
@@ -46,7 +46,7 @@ function Project() {
                                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                             </div>
                             <div style={{ width: "70px", height:"70px" }}>
-                            <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                            <Link to='/projectsingle'><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></Link>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ function Project() {
                                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                             </div>
                             <div style={{ width: "70px" }}>
-                            <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                            <Link to='projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ function Project() {
                                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                             </div>
                             <div style={{ width: "70px" }}>
-                            <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                            <Link to='projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ function Project() {
                                 <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                             </div>
                             <div style={{ width: "70px" }}>
-                            <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                            <Link to='projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ function Project() {
                                     <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                                 </div>
                                 <div style={{ width: "70px" }}>
-                                <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                                <Link to='projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ function Project() {
                                     <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                                 </div>
                                 <div style={{ width: "70px" }}>
-                                <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                                <Link to='projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ function Project() {
                                     <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                                 </div>
                                 <div style={{ width: "70px" }}>
-                                <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                                <Link to='projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@ function Project() {
                                     <p style={{ fontFamily: "Jost", fontSize: "22px", fontWeight: "400" }}>Decor/ Architecture</p>
                                 </div>
                                 <div style={{ width: "70px" }}>
-                                <Link to='/projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
+                                <Link to='projectsingle'><button ><img style={{width:"70px", height:"70px"}} src='/Images/buttonarrow.png' alt='icon' /></button></Link>
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <nav  style={{display:"flex", flexWrap:"wrap", justifyContent:"space-evenly", padding:"0px", marginRight:"auto", marginLeft:"auto", marginTop:"20px", marginBottom:"20px"}}>
             <div style={{display:"flex", justifyContent:"space-between", paddingLeft:"0px", width:"1200px"}}>
-                <h1 style={{display:"flex", justifyContent:"center", paddingLeft:"0px"}}><img src='/Images/logoInterno.png' alt='logo' style={{height:"34px", width:"34px"}}/><span style={{fontFamily:"DM serif display", fontSize:"40px", fontWeight:"400"}}>Interno</span></h1>
+                <h1 style={{display:"flex", justifyContent:"center", paddingLeft:"0px", marginTop:"5px"}}><img src='/Images/logoInterno.png' alt='logo' style={{height:"34px", width:"34px", marginTop:"5px"}}/><span style={{fontFamily:"DM serif display", fontSize:"40px", fontWeight:"400"}}>Interno</span></h1>
                 <ul style={{display:"flex", justifyContent:"center", alignContent:"center", height:"25px", marginTop:"10px" }}>
                     <li>
                         <Link to='/'>Home</Link>

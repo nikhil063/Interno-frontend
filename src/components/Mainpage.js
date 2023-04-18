@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './index.css'
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import Blackbutton from './Blackbutton';
 
 
 function Mainpage() {
@@ -37,10 +38,9 @@ function Mainpage() {
           }}>There are many variations of the passages of
             lorem Ipsum fromavailable, majority.</p>
           <div style={{ paddingTop: "21px" }}>
-            <button style={{
-              backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-              alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px",
-            }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Get Started</div><img style={{ paddingRight: "61px" }} src='./Images/arrow.png' alt='arrow' /></button>
+            <Link to='/pricing'>
+              <Blackbutton label="Get Started" />
+            </Link>
           </div>
         </div>
       </div>
@@ -97,10 +97,9 @@ function Mainpage() {
             </div>
           </div>
           <div style={{ paddingTop: "26px 48px" }}>
-            <button style={{
-              backgroundColor: '#292F36', color: "#FFFFFF", borderRadius: "18px", boxShadow: "0px 10px 20px rgba(192, 192, 192, 0.35)", fontFamily: "Jost", fontSize: "18px", display: "flex", flexDirection: "column", justifyContent: "center",
-              alignItems: "flex-end", flexWrap: "wrap", width: "253px", height: "75px", padding: "26px 0px",
-            }}><div style={{ display: "flex", justifyContent: "space-between", paddingTop: "0px", paddingBottom: "0px", paddingLeft: "51px" }}>Get Started</div><img style={{ paddingRight: "61px" }} src='./Images/arrow.png' alt='arrow' /></button>
+          <Link to='/contacts'>
+            <Blackbutton label="Get Free Estimate" />
+          </Link>
           </div>
         </div>
         <div>
