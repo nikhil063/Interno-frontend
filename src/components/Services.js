@@ -32,7 +32,7 @@ function Services() {
             <p style={{ fontFamily: "Jost", fontSize: "20px", fontWeight: "400", paddingBottom: "41px", paddingTop: "23px" }}>It is a long established fact that a reader will be distracted by the of readable content of a page
               when lookings at its layouts the points of using
               that it has a more-or-less normal. </p>
-            <Link to='servicesingle'><Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link></Link>
+            <Link to='servicesingle'><button style={{ display: "flex", fontFamily: "Jost", fontWeight: "600", fontSize: "20px", marginLeft: "auto", marginRight: "auto" }} >Read more<img style={{paddingTop:"9px", paddingLeft:"9px"}} src='./Images/arrow.png' alt='arrow' /></button></Link>
           </div>
 
 
